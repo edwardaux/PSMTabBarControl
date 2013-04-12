@@ -4,3 +4,4 @@ PRODUCT_NAME = PSMTabBarControlDemo
 INSTALL_PATH = $(HOME)/Applications
 INFOPLIST_FILE = Source/PSMTabBarControlDemo-Info.plist
 ALWAYS_SEARCH_USER_PATHS = NO
+LD_RUNPATH_SEARCH_PATHS = @loader_path/../Frameworks
