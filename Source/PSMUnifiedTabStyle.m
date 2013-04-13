@@ -244,7 +244,7 @@
 		[[NSColor windowBackgroundColor] set];
 		NSRectFill(gradientRect);
 	} else {
-        NSGradient *gradient = [[NSGradient alloc] initWithStartingColor:[NSColor colorWithCalibratedWhite:0.835 alpha:1.0] endingColor:[NSColor colorWithCalibratedWhite:0.843 alpha:1.0]];
+        NSGradient *gradient = [[NSGradient alloc] initWithStartingColor:[NSColor colorWithDeviceWhite:0.663 alpha:1.0] endingColor:[NSColor colorWithDeviceWhite:0.698 alpha:1.0]];
         [gradient drawInRect:gradientRect angle:90.0];
         [gradient release];
     }
