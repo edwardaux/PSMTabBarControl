@@ -165,8 +165,8 @@
                 [gradient drawInBezierPath:bezier angle:80.0];
                 [gradient release];
             } else if ([cell isHighlighted]) {
-                NSColor *startColor = [NSColor colorWithDeviceWhite:0.8 alpha:1.000];
-                NSColor *endColor = [NSColor colorWithDeviceWhite:0.8 alpha:1.000];
+                NSColor *startColor = [NSColor colorWithDeviceWhite:0.72 alpha:1.000];
+                NSColor *endColor = [NSColor colorWithDeviceWhite:0.72 alpha:1.000];
                 NSGradient *gradient = [[NSGradient alloc] initWithStartingColor:startColor endingColor:endColor];
                 [gradient drawInBezierPath:bezier angle:80.0];
                 [gradient release];            
